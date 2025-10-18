@@ -6,6 +6,25 @@ Backend Engineering
 This project is my **Stage 0 submission** for the **HNG 13 Backend Engineering Internship**.  
 It’s a simple RESTful API built with **Flask (Python)** that returns my profile details along with a random cat fact fetched dynamically from the **Cat Facts API** (`https://catfact.ninja/fact`).
 
+## 🌍 Live Demo
+
+🚀 You can access the live API here:  
+👉 [https://web-production-be5d8.up.railway.app/me](https://web-production-be5d8.up.railway.app/me)
+
+Example Response:
+```json
+{
+  "status": "success",
+  "user": {
+    "email": "udohemmanuel2025@gmail.com",
+    "name": "Emmanuel Udoh",
+    "stack": "Python/Flask"
+  },
+  "timestamp": "2025-10-18T19:55:12.789Z",
+  "fact": "Cats sleep 70% of their lives."
+}
+
+
 ---
 
 ## 🚀 Features
